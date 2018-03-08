@@ -5,4 +5,4 @@
   command: bash -c "echo build finish" 
 
 - service: sqrt
-  command: bash -c "go test -v ./..."
+  command: bash -c "go run sqrt.go -v ./..."
