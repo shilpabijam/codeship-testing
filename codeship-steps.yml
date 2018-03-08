@@ -1,0 +1,2 @@
+- service: sqrt
+  command: go sqrt.go
