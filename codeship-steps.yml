@@ -1,2 +1,8 @@
 - service: sqrt
-  command: go sqrt.go
+  command: bash -c "go build -v ./..."
+  
+- service: sqrt
+  command: bash -c "echo build finish" 
+
+- service: sqrt
+  command: bash -c "go test -v ./..."
