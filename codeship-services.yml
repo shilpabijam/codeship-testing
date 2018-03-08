@@ -1,4 +1,4 @@
 sqrt:
   build:
-    image: myapp
+    image: new/sqrt
     dockerfile_path: Dockerfile
