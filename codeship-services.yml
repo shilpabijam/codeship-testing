@@ -1,0 +1,4 @@
+sqrt:
+  build:
+    image: myapp
+    dockerfile_path: Dockerfile
